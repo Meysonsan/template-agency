@@ -1,0 +1,307 @@
+body {
+    font: 18px "Proxima Nova", sans-serif;
+}
+
+section {
+    text-align: center;
+}
+
+.container {
+    margin: auto;
+    width: 1344px;
+}
+
+.main-btn {
+    display: inline-block;
+    background-image: -moz-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+    background-image: -webkit-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+    background-image: -ms-linear-gradient( 16deg, rgb(73,0,124) 0%, rgb(231,0,136) 100%);
+    width: 200px;
+    height: 48px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    color: white;
+    text-transform: lowercase;
+    line-height: 48px;
+    font-weight: 400;
+}
+
+a {
+    display: inline-block;
+    text-align: center;
+    font-size: 18px;
+}
+
+a::first-letter {
+    text-transform: uppercase;
+}
+
+.welcome-section {
+    height: 100vh;
+    background: url("../img/welcome-section-bg.png") 50% 0 no-repeat;
+    background-size: cover;
+}
+
+.welcome-section header {
+     overflow: hidden;
+     padding-top: 56px;
+}
+
+.welcome-section .logo {
+    float: left;
+}
+
+.main-nav {
+    float: right;
+}
+
+.main-nav li {
+    float: left;
+}
+
+.main-nav a {
+    display: block;
+    padding: 0 24px;
+    line-height: 40px;
+    color: black;
+    border: 1px solid transparent;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+}
+
+.main-nav a:hover {
+    border-color: #565656;
+}
+
+.welcome-motto {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.welcome-motto h1 {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 1.5;
+    color: black;
+}
+
+.welcome-motto p {
+    font-weight: 400;
+    line-height: 1.25;
+    color: #949494;
+    margin-bottom: 62px;
+}
+
+.welcome-section .scroll-icon {
+    position: absolute;
+    left: 50%;
+    bottom: 10%;
+    padding-top: 56px;
+    font-size: 14px;
+    font-weight: lighter;
+    color: white;
+    transform: translateX(-50%);
+    background: url("../img/scroll-icon.png") 50% 0 no-repeat;
+
+}
+
+.our-advantage {
+    overflow: hidden;
+    padding: 136px 0 40px;
+    color: white;
+    background: url("../img/advantage-bg.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.advantage-list li,
+.what-we-do-list li {
+    display: inline-block;
+    margin-left: 160px;
+    margin-bottom: 96px;
+    width: 568px;
+    text-align: left;
+    vertical-align: top;
+}
+
+.advantage-list li:nth-child(odd),
+.what-we-do-list li:nth-child(odd) {
+    margin-left: 0;
+}
+
+.advantage-list h2 {
+    margin-bottom: 24px;
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.advantage-list span {
+    font-weight: lighter;
+}
+
+.advantage-list p {
+    margin-bottom: 32px;
+    font-weight: lighter;
+    line-height: 32px;
+}
+
+.what-we-do {
+    padding-top: 96px;
+}
+
+.what-we-do h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 96px;
+}
+
+.what-we-do-list li {
+    margin-bottom: 72px;
+    padding-left: 160px;
+}
+
+.what-we-do-list h3 {
+    margin-bottom: 24px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.what-we-do-list p {
+    margin-bottom: 24px;
+    color: #949494;
+}
+
+.what-we-do-list .web-design {
+    background: url("../img/web_design.png") 0 8px no-repeat;
+}
+
+.what-we-do-list .web-application {
+    background: url("../img/web_aplication.png") 0 8px no-repeat;
+}
+
+.what-we-do-list .digital-painting {
+    background: url("../img/digital_pating.png") 0 8px no-repeat;
+}
+
+.what-we-do-list .desktop-application {
+    background: url("../img/desctop_aplication.png") 0 8px no-repeat;
+}
+
+.slider {
+    margin-top: 104px;
+}
+
+.slider ul {
+    overflow: hidden;
+}
+
+.slider li {
+    position: relative;
+    float: left;
+    width: 33.33%;
+}
+
+.slider p {
+    font-size: 16px;
+    line-height: 1.8;
+    font-weight: lighter;
+    margin-bottom: 64px;
+}
+
+.slider h4 {
+    font-size: 30px;
+    font-weight: bold;
+    line-height: 1.8;
+    margin-bottom: 4px;
+}
+
+.slider li:hover .hover-block {
+    display: block;
+}
+
+.slider li img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.slider .hover-block {
+    display: none;
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.63);
+    color: white;
+}
+
+.slider .hover-wrap {
+    display: table;
+    padding: 0 17%;
+    width: 100%;
+    height: 100%;
+}
+
+.slider .table-cell-wrap {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.about-us {
+    padding: 104px 0;
+    color: white;
+    background: url("/img/about-us-bg.png") 50% 50% no-repeat;
+    background-size: cover;
+}
+
+.about-us h2 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.about-us header {
+    margin-bottom: 112px;
+}
+
+.about-us header p {
+    margin: 0 auto;
+    max-width: 712px;
+    color: #949494;
+    line-height: 32px;
+}
+
+.about-us-list {
+    margin: 0 auto 80px;
+    max-width: 1248px;
+}
+
+.about-us-list li {
+    display: inline-block;
+    margin-left: 56px;
+    margin-bottom: 24px;
+    max-width: 248px;
+    vertical-align: top;
+}
+
+.about-us-list h3 {
+    margin: 24px 0;
+    font-size: 24px;
+}
+
+.about-us-list p {
+    line-height: 32px;
+    color: #949494;
+}
+
+.about-us-list li:nth-child(4n+1) {
+    margin-left: 0;
+}
+
+.map {
+    background: url("/img/map.png") 50% 50% no-repeat;
+    background-size: cover;
+}
